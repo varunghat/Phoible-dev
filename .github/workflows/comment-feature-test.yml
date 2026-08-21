@@ -9,6 +9,7 @@ permissions:
   actions: read
   pull-requests: write
 
+## Separate workflow since PR from forks do not have write permissions
 jobs:
   comment:
     runs-on: ubuntu-latest
